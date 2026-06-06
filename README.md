@@ -39,6 +39,13 @@ cd openmanagerc
 make build
 ```
 
+# Install AUR
+```bash
+paru -S openmanagerc
+# or
+yay -S openmanagerc
+```
+
 > Must be run as root since it calls rc-service and rc-update.
 
 ```bash
